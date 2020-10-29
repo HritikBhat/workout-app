@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/account"
+        android:icon="@drawable/ic_account_circle_black_24dp"
+        android:title="Account"
+        app:showAsAction="ifRoom">
+        <menu>
+            <item
+                android:id="@+id/login"
+                android:title="Login"
+                app:showAsAction="never|ifRoom" />
+            <item android:id="@+id/register"
+                android:title="Register" />
+        </menu>
+    </item>
+
+    <item
+        android:id="@+id/option"
+        android:icon="@drawable/optionicon1"
+        android:title="Option"
+        app:showAsAction="ifRoom">
+        <menu>
+            <item
+                android:id="@+id/study"
+                android:title="Class 1-12"
+                app:showAsAction="never|ifRoom" />
+            <item android:id="@+id/blog"
+                android:title="Blogs"
+                />
+        </menu>
+    </item>
+
+
+</menu>

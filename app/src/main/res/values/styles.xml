@@ -1,0 +1,50 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="AppTheme.Header5TextStyle">
+        <item name="android:textSize">@dimen/text_h5</item>
+        <item name="android:textColor">@color/textColor_highEmphasis</item>
+    </style>
+
+
+
+    <style name="AppTheme.TitleTextStyle">
+        <item name="android:textSize">@dimen/text_title</item>
+        <item name="android:textColor">@color/textColor_highEmphasis</item>
+    </style>
+
+    <style name="AppTheme.TitleTextStyle.Bold" parent="AppTheme.TitleTextStyle">
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="AppTheme.SubTitleTextStyle">
+        <item name="android:textSize">@dimen/text_sub_title</item>
+        <item name="android:textColor">@color/textColor_mediumEmphasis</item>
+    </style>
+
+    <style name="ITSSubTitleStyle" parent="AppTheme.SubTitleTextStyle">
+        <item name="android:textSize">@dimen/text_sub_title</item>
+    </style>
+
+    <style name="AppTheme.SmallTextStyle">
+        <item name="android:textSize">@dimen/text_small</item>
+        <item name="android:textColor">@color/textColor_mediumEmphasis</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+</resources>

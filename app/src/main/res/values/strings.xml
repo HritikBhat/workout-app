@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Navigation Bar</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+    <string name="login">Login</string>
+    <string name="signup">Signup</string>
+    <string name="blog">Blogs</string>
+    <string name="study">Study</string>
+    <string name="dev_name">Gaurav Sharma</string>
+    <string name="dev_info">Android UI/UX Developer</string>
+    <string name="dev_email">sharma.gs12501@gmail.com</string>
+    <string name="dev_facebook_url">http://www.facebook.com</string>
+    <string name="dev_instagram_url">http://www.instagram.com</string>
+    <string name="dev_github_url">http://www.github.com/Gaurav123</string>
+    <string name="title_activity_home">home</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
+    <string name="title_activity_deleteme">deleteme</string>
+</resources>

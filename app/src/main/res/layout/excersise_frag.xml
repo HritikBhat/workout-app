@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginBottom="20dp"
+            android:orientation="vertical" >
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:background="@color/cardview_light_background"
+        android:text="Chest"
+        android:layout_marginTop="20dp"
+        android:textStyle="normal"
+        android:textAllCaps="false"
+        android:textSize="20dp"
+        android:drawableRight="@drawable/tigerdifferent"
+
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:background="@color/cardview_light_background"
+        android:text="Backbody"
+        android:layout_marginTop="20dp"
+        android:textStyle="normal"
+        android:textAllCaps="false"
+        android:textSize="20dp"
+        android:drawableRight="@drawable/backimge"
+
+
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:background="@color/cardview_light_background"
+        android:text="Abs"
+        android:layout_marginTop="20dp"
+        android:textStyle="normal"
+        android:textAllCaps="false"
+        android:textSize="20dp"
+        android:drawableRight="@drawable/absimge"
+
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:background="@color/cardview_light_background"
+        android:text="Lower Part"
+        android:layout_marginTop="20dp"
+        android:textStyle="normal"
+        android:textAllCaps="false"
+        android:textSize="20dp"
+        android:drawableRight="@drawable/abs"
+
+        />
+
+        </LinearLayout>
+    </ScrollView>
+
+
+
+</RelativeLayout>
