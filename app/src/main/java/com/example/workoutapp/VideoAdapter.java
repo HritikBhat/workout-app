@@ -14,9 +14,11 @@ import java.util.List;
 public class VideoAdapter extends RecyclerView.Adapter<VideoAdapter.VideoViewHolder> {
 
     List<YouTubeVideos> youTubeVideosList;
+    Context context;
     public VideoAdapter(){}
-    public VideoAdapter(List<YouTubeVideos>youTubeVideosList){
+    public VideoAdapter(List<YouTubeVideos>youTubeVideosList,Context context){
         this.youTubeVideosList=youTubeVideosList;
+        this.context=context;
     }
 
     @NonNull
@@ -29,6 +31,9 @@ public class VideoAdapter extends RecyclerView.Adapter<VideoAdapter.VideoViewHol
     @Override
     public void onBindViewHolder(@NonNull VideoAdapter.VideoViewHolder holder, int position) {
         holder.videoWeb.loadData(youTubeVideosList.get(position).getVideoUrl(),"text/html","utf-8");
+        //IMPORTANT NOTE::::: uncomment kar neeche ke code ko
+        //Intent intent = new Intent(abhika_Activity,dusra_Activity);
+        //context.startActivity(intent);
 
     }
 
